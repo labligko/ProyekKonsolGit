@@ -1,0 +1,3 @@
+C:/Users/altho/CLionProjects/studentFile/cmake-build-debug/CMakeFiles/studentFile.dir
+C:/Users/altho/CLionProjects/studentFile/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/altho/CLionProjects/studentFile/cmake-build-debug/CMakeFiles/rebuild_cache.dir
