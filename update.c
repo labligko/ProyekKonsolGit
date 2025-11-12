@@ -12,7 +12,7 @@ void updateData(const char *sourceFilename, int idTarget);
 int main()
 {
     int idTarget;
-    printf("Masukan ID mahasiswa yang ingin diupdate: ");
+    printf("\nMasukan ID mahasiswa yang ingin diupdate: ");
     scanf("%d", &idTarget);
     updateData("student.dat", idTarget);
     return 0;
