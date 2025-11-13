@@ -5,8 +5,8 @@ set(CMAKE_C_STANDARD 23)
 
 add_executable(studentFile
 #        create.c
-#        read.c
+        read.c
 #        copy.c
 #        merge.c
-        update.c
+#        update.c
 )

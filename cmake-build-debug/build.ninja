@@ -49,9 +49,9 @@ cmake_ninja_workdir = C$:/Users/altho/CLionProjects/studentFile/cmake-build-debu
 
 build cmake_object_order_depends_target_studentFile: phony || .
 
-build CMakeFiles/studentFile.dir/update.c.obj: C_COMPILER__studentFile_unscanned_Debug C$:/Users/altho/CLionProjects/studentFile/update.c || cmake_object_order_depends_target_studentFile
+build CMakeFiles/studentFile.dir/read.c.obj: C_COMPILER__studentFile_unscanned_Debug C$:/Users/altho/CLionProjects/studentFile/read.c || cmake_object_order_depends_target_studentFile
   CONFIG = Debug
-  DEP_FILE = CMakeFiles\studentFile.dir\update.c.obj.d
+  DEP_FILE = CMakeFiles\studentFile.dir\read.c.obj.d
   FLAGS = -g -std=gnu2x -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\studentFile.dir
   OBJECT_FILE_DIR = CMakeFiles\studentFile.dir
@@ -64,7 +64,7 @@ build CMakeFiles/studentFile.dir/update.c.obj: C_COMPILER__studentFile_unscanned
 #############################################
 # Link the executable studentFile.exe
 
-build studentFile.exe: C_EXECUTABLE_LINKER__studentFile_Debug CMakeFiles/studentFile.dir/update.c.obj
+build studentFile.exe: C_EXECUTABLE_LINKER__studentFile_Debug CMakeFiles/studentFile.dir/read.c.obj
   CONFIG = Debug
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32

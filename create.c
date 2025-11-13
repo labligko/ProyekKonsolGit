@@ -16,7 +16,7 @@ void main()
     while (aStudent.id != 9999)
     {
         printf("Input student name = "); scanf("%s",&aStudent.name);
-        printf("Input student grade = "); scanf("%f",&aStudent.grade);
+        printf("Input student grade = "); scanf("%f                  ",&aStudent.grade);
         fwrite(&aStudent,sizeof(aStudent),1,studentFile);
 
         printf("Input student ID = "); scanf("%d",&aStudent.id);
