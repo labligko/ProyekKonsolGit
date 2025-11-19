@@ -13,6 +13,7 @@ void printGradu();
 void copyArr();
 void printArr();
 void expcsv();
+void copyArchive(FILE *studentFile1, FILE *studentFile2);
 
 studentData studentArr[MAX_STUDENTS];
 int co;
@@ -20,6 +21,7 @@ int co;
 main()
 {
     FILE *studentFile;
+    FILE *studentFile2;
     int numberOfGraduates;
 
     countGraduation(studentFile, &numberOfGraduates);
@@ -29,6 +31,7 @@ main()
     printf("Student list: \n");
     printArr();
     expcsv();
+    copyArchive(studentFile, studentFile2);
 }
 
 void countGraduation(FILE *stdfile, int *nOver2)
@@ -112,4 +115,18 @@ void expcsv()
         printf("Berhasil export to .csv\n");
     }
     fclose(stdFile);
+}
+
+void copyArchive(FILE *studentFile1, FILE *studentFile2)
+{
+    studentData studentRec;
+
+    studentFile1 = fopen("student.dat", "rb");
+    studentFile2 = fopen("student2.dat", "wb");
+    while (fread(&studentRec, sizeof(studentData), 1, studentFile1) == 1)
+    {
+        fwrite(&studentRec, sizeof(studentRec), 1, studentFile2);
+    }
+    fclose(studentFile1);fclose(studentFile2);
+    printf("\n Files have been copied.");
 }

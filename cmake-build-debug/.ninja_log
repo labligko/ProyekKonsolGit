@@ -1,12 +1,9 @@
 # ninja log v6
-2	429	7847233144319589	build.ninja	aeccc47833b1e6e6
-21	151	7847232925431851	CMakeFiles/studentFile.dir/create.c.obj	dde6088d60142b86
 24	153	7847232925467884	CMakeFiles/studentFile.dir/copy.c.obj	1eb8b08475d37570
-2	429	7847233144279589	C:/Users/altho/CLionProjects/studentFile/cmake-build-debug/cmake_install.cmake	aeccc47833b1e6e6
-22	99	7847207413813674	CMakeFiles/studentFile.dir/read.c.obj	56bd6e4817d1de4b
-99	188	7847207414584033	studentFile.exe	470a6a52497cf441
+5	132	7852182220487665	CMakeFiles/studentFile.dir/create.c.obj	dde6088d60142b86
+116	978	7852184289736528	build.ninja	aeccc47833b1e6e6
+116	978	7852184289565921	C:/Users/altho/CLionProjects/studentFile/cmake-build-debug/cmake_install.cmake	aeccc47833b1e6e6
+29	279	7850655872922250	CMakeFiles/studentFile.dir/read.c.obj	56bd6e4817d1de4b
+132	368	7852182221769498	studentFile.exe	35e793720f59e6c4
 29	155	7847232925507877	CMakeFiles/studentFile.dir/merge.c.obj	964ee8ac470756f8
 27	269	7847189746291511	CMakeFiles/studentFile.dir/update.c.obj	587f565401f58942
-2	389	7847233144319589	build.ninja	aeccc47833b1e6e6
-2	389	7847233144319589	C:/Users/altho/CLionProjects/studentFile/cmake-build-debug/cmake_install.cmake	aeccc47833b1e6e6
-26	109	7847233145466290	studentFile.exe	470a6a52497cf441
