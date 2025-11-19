@@ -1,9 +1,17 @@
 # ninja log v6
-24	153	7847232925467884	CMakeFiles/studentFile.dir/copy.c.obj	1eb8b08475d37570
+116	978	7852238058969838	build.ninja	aeccc47833b1e6e6
 5	132	7852182220487665	CMakeFiles/studentFile.dir/create.c.obj	dde6088d60142b86
-116	978	7852184289736528	build.ninja	aeccc47833b1e6e6
-116	978	7852184289565921	C:/Users/altho/CLionProjects/studentFile/cmake-build-debug/cmake_install.cmake	aeccc47833b1e6e6
+24	153	7847232925467884	CMakeFiles/studentFile.dir/copy.c.obj	1eb8b08475d37570
+116	978	7852238058931762	C:/Users/altho/CLionProjects/studentFile/cmake-build-debug/cmake_install.cmake	aeccc47833b1e6e6
 29	279	7850655872922250	CMakeFiles/studentFile.dir/read.c.obj	56bd6e4817d1de4b
 132	368	7852182221769498	studentFile.exe	35e793720f59e6c4
 29	155	7847232925507877	CMakeFiles/studentFile.dir/merge.c.obj	964ee8ac470756f8
 27	269	7847189746291511	CMakeFiles/studentFile.dir/update.c.obj	587f565401f58942
+6	503	7852238058969838	build.ninja	aeccc47833b1e6e6
+6	503	7852238058969838	C:/Users/altho/CLionProjects/studentFile/cmake-build-debug/cmake_install.cmake	aeccc47833b1e6e6
+23	153	7852238060041367	CMakeFiles/studentFile.dir/kendaraan.c.obj	19afbabd83c869aa
+154	280	7852238061350144	studentFile.exe	633b35306a38962c
+4	95	7852241171326084	CMakeFiles/studentFile.dir/kendaraan.c.obj	19afbabd83c869aa
+95	210	7852241172237439	studentFile.exe	633b35306a38962c
+3	96	7852241714900205	CMakeFiles/studentFile.dir/kendaraan.c.obj	19afbabd83c869aa
+96	203	7852241715835094	studentFile.exe	633b35306a38962c
